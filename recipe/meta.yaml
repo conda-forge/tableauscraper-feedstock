@@ -1,5 +1,5 @@
 {% set name = "tableauscraper" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/TableauScraper-{{ version }}.tar.gz
-  sha256: a9fba40cd040836a973f060de819dc07fb4f93ed2f8deb3162b6109dafbb4d46
+  sha256: 7fa031b9b4aacecb8b525ad1d5908623456c3975fc46bf88fb2b6fd13156288e
 
 build:
   noarch: python
